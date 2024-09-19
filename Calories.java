@@ -1,51 +1,42 @@
-public class Calories{ 
-        
-        }
+public class Calories {
+    public static void main(String[] args) {
+        int cal = 1000;
+        int incal = 100;
+        int dayoffweek = 1; // 1 represents Monday
 
-        public static void(String[] args){
-            int cal = 1000;
-            int incal = 100;
-            int day = 1;
+        String dayName;
 
-            switch (dayoffweek) {
-                case 1;
+        switch (dayoffweek) {
+            case 1:
                 dayName = "Monday";
                 break;
-            
-                case 2;
+            case 2:
                 dayName = "Tuesday";
                 break;
-            
-                case 3;
+            case 3:
                 dayName = "Wednesday";
                 break;
-                
-                case 4;
+            case 4:
                 dayName = "Thursday";
                 break;
-            
-                case 5;
+            case 5:
                 dayName = "Friday";
                 break;
-            
-                case 6;
+            case 6:
                 dayName = "Saturday";
                 break;
-                
-                case 7;
+            case 7:
                 dayName = "Sunday";
                 break;
-            
-                defult;
+            default:
                 dayName = "Invalid Value";
                 break;
-            }
-
-            int cal = 100;
-
-        while(cal = 100){ 
-            System.out.printIn(cal);
-            counter++;
-              
         }
-            }
+
+        System.out.println("Day of the week: " + dayName);
+
+        for (int i = 1; i <= 5; i++) {
+            System.out.println("Calories: " + cal);
+        }
+    }
+}
