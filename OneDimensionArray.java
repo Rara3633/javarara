@@ -11,10 +11,10 @@ public class OneDimensionArray {
 
         int[] values = {10, 20, 30, 40, 50};
 
-        for (int i = 0; i < numbers.length; i++){
+        for (int i = 0; i < numbers.length; i++){ 
             System.out.println(numbers[i]);
 
-            for (int value: values){
+            for (int value: values){ 
                 if (value==0){
                     System.out.println(value);
                 }

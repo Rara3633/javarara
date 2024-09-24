@@ -18,8 +18,8 @@ public class TwoDimensionArray { //come out in oracle exam
 // there are two tipe
 
         //method number one
-        for (int row=0; row<matrix.length; row++){
-            for (int col=0; col<matrix[row].length; col++){
+        for (int row=0; row<matrix.length; row++){ // to brakdown the number become (1,2,3,4,5)
+            for (int col=0; col<matrix[row].length; col++){ //after the matrix change to the row that have been needed
                 System.out.printIn(matrix[row][col]);
 
             }

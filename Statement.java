@@ -1,9 +1,9 @@
-public class Statement {
+public class Statement { // keluar exam 
 
     public static void main(String[] args){
         int num = 5;
 
-        if(num>0){
+        if(num>0){ // means we not care about other
             System.out.println("Number is Positive");
         }
         

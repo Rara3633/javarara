@@ -1,13 +1,13 @@
-public class encapsulation { 
+public class encapsulation { //The meaning of Encapsulation, is to make sure that "sensitive" data is hidden from users
 
-    private String[] name;
+    private String name;
     private int age;
 
     public String getName() {
         return name;
     }
 
-    public void setName(String[] name){
+    public void setName(String name){
         this.name = name;
     }
 
@@ -15,19 +15,23 @@ public class encapsulation {
         return age;
     }
 
-    public void main(String[] name){
+    public void age(int age){
+        this.age = age;
+    }
+
+    public void main(String name){
         this.name = name;
     }
 
-    public int getAge;(){
+    public int setAge(){
         return age;
     }
 
     public static void main(String[] args){ //output
-        Encapsulation person = new Encapsulation();
-        person.setName (name: "Eya");
-        person.setAge (age: 27);
+        encapsulation person = new encapsulation();
+        person.setAge();
+        person.setName("Eya");
 
-        System.out.printIn(person.getName() + "is" + person.getAge() + "years old");
+        System.out.println(person.getName() + " is " + person.getAge() + " years old ");
     }
 }
