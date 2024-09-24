@@ -44,9 +44,9 @@ public class EmployeeManagementSystem {
 
     public static double calculateBonus(double totalSalary) { // changed parameter to total salary
         double bonus = 0;
-        if (totalSalary > 50000) {
+        if (totalSalary > 5000) {
             bonus = 0.1 * totalSalary;
-        } else if (totalSalary > 30000) {
+        } else if (totalSalary > 3000) {
             bonus = 0.05 * totalSalary;
         }
         return bonus; // return calculated bonus
