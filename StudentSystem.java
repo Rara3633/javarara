@@ -1,6 +1,6 @@
 public class StudentSystem {
     
-    public class StudentSystem {
+    
         private String name;
         private int scores[] = {0,0,0};
         private double averageScore;
@@ -70,5 +70,5 @@ public class StudentSystem {
     
     }
     
-}
+
  
