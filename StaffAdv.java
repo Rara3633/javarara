@@ -56,7 +56,7 @@ public class DateTimeExample { //
     } */
     import java.util.ArrayList;
     import java.time.LocalDateTime;
-    import java.time.format.DateTimeFormatter;
+    import java.time.format.DateTimeFormatter;  
     
     public class StaffAdv {
     
@@ -96,13 +96,5 @@ public class DateTimeExample { //
                 System.out.println("Bonus: " + bonus + " - Try again next year Babe" );
             }
             System.out.println(); 
-        }
+        } 
     }
-    
-        
-       
-
-
-            
-        
-    
